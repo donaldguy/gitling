@@ -1,0 +1,15 @@
+{
+  "name": "gitling",
+  "version": "0.0.1",
+  "description": "A web app for viewing AND editing docs in git",
+  "scripts": {},
+  "author": "Donald Guy <fawkes@mit.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "codemirror": "^5.40.0",
+    "hypermd": "^0.3.10"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
+}

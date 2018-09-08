@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding-left: 1ex;
+}
+
+#home-row {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+nav {
+    flex: 2 0 auto;
+}
+
+main {
+    background-color: white;
+    flex: 8 0 auto;
+    max-width: 80%;
+    min-width: 80%;
+}
+
+.CodeMirror {
+    width: 100%;
+}
+
+footer {
+}
