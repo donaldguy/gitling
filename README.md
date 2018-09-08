@@ -39,8 +39,7 @@ Mechanically: Gitling is a self-contained daemon which serves a realtime-editabl
 
 About 4 years ago, my worldview was impacted by Andrew Clay Shafer's (aka [@littleidea](https://twitter.com/littleidea)) 2013 Velocity talk "there is no talent shortage":
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P_sWGl7MzhU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-https://www.youtube.com/watch?v=P_sWGl7MzhU
+[![there is no talent shortage -- velocity NYC 2013 -- andrew clay shafer](https://img.youtube.com/vi/P_sWGl7MzhU/0.jpg)](https://www.youtube.com/watch?v=P_sWGl7MzhU)
 
 It's a little meandering; I'd still encourage you to watch it if you have the time. My TL;DW is thus:
 
@@ -65,7 +64,7 @@ Eventually you reach the 🌈🦄 of "The real [Your Company/Product Here] was t
 
 If you watch the talk above (or look at [the slides](https://www.slideshare.net/littleidea/there-is-no-talent-shortage-velocity-2013)) there is a recurrent image: a vintage photograph of the testing of an early [Gatling](https://en.wikipedia.org/wiki/Gatling_gun)-type cannon:
 
-<a data-flickr-embed="true" data-header="true"  href="https://www.flickr.com/photos/13035641@N00/270353459" title="Early Gatling gun"><img src="https://farm1.staticflickr.com/118/270353459_a87b601981.jpg" width="500" height="338" alt="Early Gatling gun"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" data-header="true"  href="https://www.flickr.com/photos/13035641@N00/270353459" title="Early Gatling gun"><img src="https://farm1.staticflickr.com/118/270353459_a87b601981.jpg" width="500" height="338" alt="Early Gatling gun"></a>
 
 The metaphor is a little violent for my taste, but it gets the point across: a game-changing tool for "competitive advantage". 
 
