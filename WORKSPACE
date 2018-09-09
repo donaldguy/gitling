@@ -38,9 +38,33 @@ go_repository(
 )
 
 go_repository(
+    name = "com_github_gin_contrib_sse",
+    commit = "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae",
+    importpath = "github.com/gin-contrib/sse",
+)
+
+go_repository(
+    name = "com_github_gin_gonic_gin",
+    commit = "b869fe1415e4b9eb52f247441830d502aece2d4d",
+    importpath = "github.com/gin-gonic/gin",
+)
+
+go_repository(
+    name = "com_github_golang_protobuf",
+    commit = "aa810b61a9c79d51363740d207bb46cf8e620ed5",
+    importpath = "github.com/golang/protobuf",
+)
+
+go_repository(
     name = "com_github_jbenet_go_context",
     commit = "d14ea06fba99483203c19d92cfcd13ebe73135f4",
     importpath = "github.com/jbenet/go-context",
+)
+
+go_repository(
+    name = "com_github_json_iterator_go",
+    commit = "1624edc4454b8682399def8740d46db5e4362ba4",
+    importpath = "github.com/json-iterator/go",
 )
 
 go_repository(
@@ -50,9 +74,27 @@ go_repository(
 )
 
 go_repository(
+    name = "com_github_mattn_go_isatty",
+    commit = "6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c",
+    importpath = "github.com/mattn/go-isatty",
+)
+
+go_repository(
     name = "com_github_mitchellh_go_homedir",
     commit = "ae18d6b8b3205b561c79e8e5f69bff09736185f4",
     importpath = "github.com/mitchellh/go-homedir",
+)
+
+go_repository(
+    name = "com_github_modern_go_concurrent",
+    commit = "bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94",
+    importpath = "github.com/modern-go/concurrent",
+)
+
+go_repository(
+    name = "com_github_modern_go_reflect2",
+    commit = "4b7aa43c6742a2c18fdef89dd197aaae7dac7ccd",
+    importpath = "github.com/modern-go/reflect2",
 )
 
 go_repository(
@@ -74,9 +116,21 @@ go_repository(
 )
 
 go_repository(
+    name = "com_github_ugorji_go",
+    commit = "b4c50a2b199d93b13dc15e78929cfb23bfdf21ab",
+    importpath = "github.com/ugorji/go",
+)
+
+go_repository(
     name = "com_github_xanzy_ssh_agent",
     commit = "640f0ab560aeb89d523bb6ac322b1244d5c3796c",
     importpath = "github.com/xanzy/ssh-agent",
+)
+
+go_repository(
+    name = "in_gopkg_go_playground_validator_v8",
+    commit = "5f1438d3fca68893a817e4a66806cea46a9e4ebf",
+    importpath = "gopkg.in/go-playground/validator.v8",
 )
 
 go_repository(
@@ -95,6 +149,12 @@ go_repository(
     name = "in_gopkg_warnings_v0",
     commit = "ec4a0fea49c7b46c2aeb0b51aac55779c607e52b",
     importpath = "gopkg.in/warnings.v0",
+)
+
+go_repository(
+    name = "in_gopkg_yaml_v2",
+    commit = "5420a8b6744d3b0345ab293f6fcba19c978f1183",
+    importpath = "gopkg.in/yaml.v2",
 )
 
 go_repository(

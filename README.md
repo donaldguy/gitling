@@ -4,10 +4,19 @@
 
 ```shell
 git clone git@github.com:donaldguy/gitling.git
-npm install
+#install node if needed
 npm install -g parcel-bundler
-parcel index.html
+# install bazel per https://docs.bazel.build/versions/master/install.html
+# install https://github.com/bazelbuild/bazel-watcher
+# by cloning; bazel build //ibazel; cp bazel-bin/ibazel/$(uname -s | tr 'WDL' 'wdl')_amd64_pure_stripped/ibazel /usr/local/bin
+make
 ```
+
+And https://localhost:8080 should be serving an autorebuilding API server, which proxies to frontend dev server on http://localhost:1234
+
+(if you put it in a GOPATH and `go get` or `dep ensure`, you can `go run ./server/server_example.go` instead; but where's the fun in that)
+
+Note that right now if you make local changes to this README they won't be reflected in what the server loads until `git commit`ed to `HEAD`
 
 ## What?
 
@@ -64,9 +73,9 @@ Eventually you reach the 🌈🦄 of "The real [Your Company/Product Here] was t
 
 If you watch the talk above (or look at [the slides](https://www.slideshare.net/littleidea/there-is-no-talent-shortage-velocity-2013)) there is a recurrent image: a vintage photograph of the testing of an early [Gatling](https://en.wikipedia.org/wiki/Gatling_gun)-type cannon:
 
-<a data-flickr-embed="true" data-header="true"  href="https://www.flickr.com/photos/13035641@N00/270353459" title="Early Gatling gun"><img src="https://farm1.staticflickr.com/118/270353459_a87b601981.jpg" width="500" height="338" alt="Early Gatling gun"></a>
+[![Early Gatling gun](https://farm1.staticflickr.com/118/270353459_a87b601981.jpg)](https://www.flickr.com/photos/13035641@N00/270353459)
 
-The metaphor is a little violent for my taste, but it gets the point across: a game-changing tool for "competitive advantage". 
+The metaphor is a little violent for my taste, but it gets the point across: a game-changing tool for "competitive advantage".
 
 I would aspire for this software to be one as well.
 

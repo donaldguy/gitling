@@ -2,6 +2,8 @@ package docsource
 
 import "time"
 
+// a change
+
 type DocSource interface {
 	List() []string
 

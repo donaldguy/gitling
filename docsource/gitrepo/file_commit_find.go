@@ -17,6 +17,11 @@ func fileIntroduced(repo *git.Repository, name string) (*object.Commit, error) {
 	return fileCommitFind(repo, name, true)
 }
 
+// TODO?: Should we disqualify merge commits, as the authorship is more properly in the
+// parent which modified the file (unless they both did in which case, I guess the merge
+// is the real change)
+// - In general should we walk to parent(s) and try to terminate the search that way?
+
 // simulation of git log -- $name, but probably even a bit more hueristic, to
 // finds the commit that introduced (or if addedOnly == false, lastModified) the file
 func fileCommitFind(repo *git.Repository, name string, addedOnly bool) (*object.Commit, error) {
