@@ -1,3 +1,11 @@
+# frontend
 .cache/
 dist/
 node_modules/
+
+# bazel
+/bazel-out
+/.bazel/
+
+# vendor. Bazel is source of truth!
+vendor/
